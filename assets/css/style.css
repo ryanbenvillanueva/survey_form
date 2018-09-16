@@ -1,0 +1,224 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    background-color: #f6ec35;
+    /* background-color: #f6ec35; */
+}
+
+#title {
+    padding-top: 1em;
+    text-align: center;
+    color: #d11013;
+}
+
+#description {
+    text-align: center;
+    padding: 2em;
+}
+
+#survey-form {
+    width: 80%;
+    margin: 1.5em auto 0 auto;
+    border-radius: 5px;
+    background-color: white;
+    padding-bottom: 2em;
+}
+
+#name-label {
+    display: block;
+    width: 80%;
+    font-weight: 700;
+    text-align: left;
+    padding-left: 10%;
+}
+
+input[id=name] {
+    display: block;
+    width: 80%;
+    text-align: left;
+    padding: 0.5em;
+    margin: 0.5em auto;
+}
+
+#email-label {
+    display: block;
+    width: 80%;
+    font-weight: 700;
+    text-align: left;
+    padding: 1.5em 0 0 10%;
+}
+
+input[id=email] {
+    display: block;
+    width: 80%;
+    text-align: left;
+    padding: 0.5em;
+    margin: 0.5em auto;
+}
+
+#number-label {
+    display: block;
+    width:80%;
+    font-weight: 700;
+    text-align: left;
+    padding: 1.5em 0 0 10%;
+}
+
+input[id=number] {
+    display: block;
+    width: 80%;
+    text-align: left;
+    padding: 0.5em;
+    margin: 0.5em auto;
+}
+
+sup {
+    color: #d11013;
+    font-weight: 700;
+}
+
+#radio-label {
+    display: block;
+    width:80%;
+    font-weight: 700;
+    text-align: left;
+    padding: 2em 0 0 10%;
+}
+
+.gender {
+    width: 80%;
+    padding-top: 0.5em;
+    padding-left: 10%;
+}
+
+label[for=reason] {
+    display: block;
+    width:80%;
+    font-weight: 700;
+    text-align: left;
+    padding: 2em 0 0.5em 10%;
+}
+
+#dropdown {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    padding: 0.5em;
+}
+
+label[for=resource] {
+    display: block;
+    width:80%;
+    font-weight: 700;
+    text-align: left;
+    padding: 2em 0 0 10%;
+}
+
+.resource {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 0.5em;
+    padding-left: 10%;
+}
+
+label[for=hours-spent] {
+    display: block;
+    width:80%;
+    font-weight: 700;
+    text-align: left;
+    padding: 2em 0 0 10%;
+}
+
+input[name=hours-spent] {
+    display: block;
+    width: 80%;
+    text-align: left;
+    padding: 0.5em;
+    margin: 0.5em auto;
+}
+
+label[for=months-spent] {
+    display: block;
+    width:80%;
+    font-weight: 700;
+    text-align: left;
+    padding: 2em 0 0 10%;
+}
+
+input[name=months-spent] {
+    display: block;
+    width: 80%;
+    text-align: left;
+    padding: 0.5em;
+    margin: 0.5em auto;
+}
+
+label[for=bootcamp] {
+    display: block;
+    width:80%;
+    font-weight: 700;
+    text-align: left;
+    padding: 2em 0 0 10%;
+}
+
+.bootcamp {
+    width: 80%;
+    padding-top: 0.5em;
+    padding-left: 10%;
+}
+
+label[for=comments] {
+    display: block;
+    width:80%;
+    font-weight: 700;
+    text-align: left;
+    padding: 2em 0 0 10%;
+}
+
+textarea[name=comments] {
+    display: block;
+    width: 80%;
+    padding-top: 0.5em;
+    margin: 0 auto;
+}
+
+#submit {
+    display: block;
+    width: 33.33%;
+    text-align: center;
+    font-weight: 700;
+    padding: 1em 0;
+    background-color: #f6ec35;
+    margin: 3em auto 1em auto;
+    border: 0px solid;
+    border-radius: 5px;
+}
+
+#submit a {
+    text-decoration: none;
+    color: #d11013;
+    
+}
+
+#footer {
+    padding: 2em 0;
+    text-align: center;
+    color: #d11013;
+    font-weight: 700;    
+}
+
+#footer a {
+    text-decoration: none;
+    color: #d11013;
+}
+
+#footer a:hover, #submit a:hover {
+    color: black;
+}

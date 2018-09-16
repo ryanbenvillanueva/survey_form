@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Survey Form</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="title">Code Learner Survey Form</h1>
+    </header>
+    <main>
+        <form id="survey-form" action="">
+            <p id="description">Please let us know how you are learning to code</p>
+            <label id="name-label" for="name">
+                <sup>*</sup>Name:
+            </label>
+            <input id="name" type="text" name="name" placeholder="Enter your name" required autofocus>
+
+            <label id="email-label" for="email">
+                <sup>*</sup>Email:
+            </label>
+            <input id="email" type="email" name="email" placeholder="Enter your Email" required>
+
+
+            <label id="number-label" for="age">
+                <sup>*</sup>Age:
+            </label>
+            <input id="number" type="number" name="age" placeholder="Age" min="1" max="130" required>
+
+            <label id="radio-label" for="gender">
+                What is your gender?
+            </label>
+            <div class="gender">
+                <input type="radio" name="gender" value="male"> Male <br>
+                <input type="radio" name="gender" value="female"> Female <br>
+                <input type="radio" name="gender" value="other"> Other <br>
+                <input type="radio" name="gender" value="no-say"> Prefer not to say <br>
+            </div>
+
+            <label for="reason">
+                What is your biggest reason for learning to code?
+            </label>
+
+            <select name="reason" id="dropdown">
+                <option value="art">To create art or entertainment</option>
+                <option value="hobby">As a hobby</option>
+                <option value="business">To start a business or to freelance</option>
+                <option value="school">To meet school requirements</option>
+                <option value="career">To succeed in current career</option>
+                <option value="change">To change careers</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="resource">
+                Which type of learning resources have you found helpful?
+                Choose as many as you like.
+            </label>
+            <div class="resource">
+                <input type="checkbox" value="books" name="resource">Books<br>
+                <input type="checkbox" value="websites" name="resource">Programming Websites<br>
+                <input type="checkbox" value="events" name="resource">In-person coding-related events<br>
+                <input type="checkbox" value="podcasts" name="resource">Coding-related Podcasts<br>
+                <input type="checkbox" value="videos" name="resource">Youtube videos<br>
+            </div>
+
+            <label for="hours-spent">
+                About how many hours do you spend learning each week?
+            </label>
+            <input type="text" placeholder="Type your answer here" name="hours-spent">
+            <label for="months-spent">
+                About how many months have you been programming for?
+            </label>
+
+            <input type="text" placeholder="Type your answer here" name="months-spent">
+
+            <label id="radio-label" for="bootcamp">
+                Would you consider attending a full-time coding bootcamp?
+            </label>
+            <div class="bootcamp">
+                <input type="radio" name="bootcamp" value="yes"> Yes<br>
+                <input type="radio" name="bootcamp" value="no"> No<br>
+                <input type="radio" name="bootcamp" value="maybe"> Maybe<br>
+            </div>
+
+            <label for="comments">
+                Any comments or suggestions?
+            </label>
+
+            <textarea name="comments" placeholder="Enter your comment here" cols="30" rows="10"></textarea>
+
+            <button id="submit" type="submit"> <a href="#title">Submit</a></button>
+        </form>
+    </main>
+    <footer id="footer">
+        <p>Coded by <a href="https://www.freecodecamp.org/rbsvillanueva" target="_blank">Ryan Ben S. Villanueva</a></p>
+    </footer>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
