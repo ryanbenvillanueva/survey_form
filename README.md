@@ -1,4 +1,4 @@
-# Tribute Page
+# Survey Form
 URL: https://rbsvillanueva.github.io/survey-form/
 
 #### Responsive Web Design Project - Build a Survey Form for freeCodeCamp, 09.16.2018
