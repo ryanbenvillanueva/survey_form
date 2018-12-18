@@ -1,5 +1,5 @@
 # Survey Form
-URL: https://rbsvillanueva.github.io/survey-form/
+URL: https://ryanbenvillanueva.github.io/survey_form/
 
 #### Responsive Web Design Project - Build a Survey Form for freeCodeCamp, 09.16.2018
 
@@ -14,7 +14,7 @@ Please go to https://learn.freecodecamp.org/responsive-web-design/responsive-web
 ## Setup
 
 Open your browser of choice and go to
-https://rbsvillanueva.github.io/survey-form/ , or go to
+https://ryanbenvillanueva.github.io/survey_form/ , or go to
 https://codepen.io/RBSVillanueva/full/XPPRVK/ to view it in Codepen.
 
 ## Support and contact details
